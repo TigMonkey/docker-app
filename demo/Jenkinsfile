@@ -1,5 +1,0 @@
-node{
-    stage('Scm Checkout'){
-        git credentialsId: 'root', url: 'https://github.com/TigMonkey/docker-app'
-    }
-}
